@@ -1,0 +1,42 @@
+These BASIC language programs do temperature conversions between 
+Celsius degrees and Farhenheit degrees.
+The use of these programs is aimed study and exercise
+programming constructs and input/output operations.
+They can run on MS win, GNU/Linux, MacOS, FreeDOS and
+many other old computer systems and/or related emulators.
+They have been tested to run on "minimal BASIC" compliant interpreters and/or compilers
+(ECMA-55 1978 and ANSI X3.60-1978, 
+ISO/IEC 6373:1984 "Data Processing—Programming Languages—Minimal BASIC"
+internation standards).
+In particular they have been tested to run
+on pcbasic interpreter (MS gwbasic and mbasic compatible), 
+https://robhagemans.github.io/pcbasic
+on qb64.sh (qbasic compatible) 
+-with few changes uncommenting the related REM lines, 
+see lines 205 and 225 in F2CBIS.BAS- 
+https://www.qb64.org/portal
+and using the online interpreter http://www.quitebasic.com . 
+With few changes they can run on By Water basic interpreter bwbasic.
+https://sourceforge.net/projects/bwbasic
+http://manpages.ubuntu.com/manpages/bionic/man1/bwbasic.1.html
+TCONV.BAS is a simple interactive program that has a command line
+user interface, a loop prompting on the terminal the user to insert the
+input and select options, until end of program is selected.
+
+
+F2C2F
+├── C2F.BAS             ----> converts celsius to fahrenheit
+├── F2C.BAS             ----> converts fahrenheit to celsius
+├── TCONV.BAS           ----> complete program with console u.i.
+├── C2FBIS.BAS          ----> batch program that reads from file and write on stdout and logfile
+├── F2CBIS.BAS          ----> batch program that reads from file and write on stdout and logfile
+├── F2C2F.LOG           ----> log file shared by all apps
+├── cinputbis.csv	----> input file for C2FBIS.BAS, contains an array of temperature values (°C)
+├── cinputlines.txt	----> input file for C2F.BAS program using CRLF end-of-lines
+├── cinput.txt		----> input file for C2F.BAS using commas as data separator
+├── finputbis.csv	----> input file for C2FBIS.BAS, contains an array of temperature values (°C)
+├── finput.txt		----> input file for F2C.BAS using commas as data separator
+├── cinputlines.txt	----> input file for C2F.BAS program using CRLF end-of-lines
+└── README (this file)
+
+
