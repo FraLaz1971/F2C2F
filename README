@@ -24,7 +24,7 @@ yet only for source program TCONV.BAS .
 TCONV.BAS is a simple interactive program that has a command line
 user interface, a loop prompting on the terminal the user to insert the
 input and select options, until end of program is selected.
-
+F2CBIS.BAS and C2FBIS.BAS are batch programs.
 
 F2C2F
 ├── C2F.BAS             ----> converts celsius to fahrenheit
