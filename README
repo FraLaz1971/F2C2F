@@ -21,6 +21,8 @@ https://sourceforge.net/projects/bwbasic
 http://manpages.ubuntu.com/manpages/bionic/man1/bwbasic.1.html
 bwbasic interpreter syntax compatibility has been implemented
 yet only for source program TCONV.BAS .
+They can also run on BBC BASIC compilers, included Brandy 
+http://jaguar.orpheusweb.co.uk/branpage.html
 TCONV.BAS is a simple interactive program that has a command line
 user interface, a loop prompting on the terminal the user to insert the
 input and select options, until end of program is selected.
