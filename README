@@ -44,3 +44,38 @@ F2C2F
 └── README (this file)
 
 
+The TCONV program execute a UI infinite loop prompting the user
+for input at terminal command line. The execution schema can be
+described with the following pseudocode lines 
+('\' symbol indicate continuation on newline):
+
+
+input the user for name
+greet the user
+do
+    ask input which conversion to do: \
+        Fdeg to Cdeg or Cdeg to Fdeg
+    if ( isSelected(Cdeg) ) 
+    then
+        ask input Cdeg Temperature value
+        if Cdeg is an illegal value \
+            (Cdeg < -273.15) reject and ask \
+            for new input
+        compute Fdeg = (9/5)*Cdeg + 32
+        shows Fdeg in output
+    else if isSelected(Fdeg)
+    then
+        ask input Fdeg Temperature value
+        if Fdeg is an illegal value \
+            (Fdeg < -459.67) reject and ask \
+            for new input
+        compute Cdeg = (Fdeg - 32)*(5/9) 
+        shows Cdeg in output
+    en dif
+    ask input if user want go on
+    reject unexpected answers \
+        (different from yes or no)
+until (user want to continue)
+say goodby to the user
+
+
