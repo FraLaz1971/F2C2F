@@ -71,11 +71,23 @@ do
             for new input
         compute Cdeg = (Fdeg - 32)*(5/9) 
         shows Cdeg in output
-    en dif
+    end if
     ask input if user want go on
     reject unexpected answers \
         (different from yes or no)
 until (user want to continue)
-say goodby to the user
+say goodbye to the user
 
-
+C2F.BAS and F2C.BAS are batch programs that read
+from input file and save output to stdout
+and info on logfile F2C2F.LOG .
+Who is using pcbasic to run this code example
+can launch it from terminal with the command
+pcbasic -qn  C2F.BAS
+# or
+pcbasic -qn  F2C.BAS
+# more in general
+pcbasic -qn --preset=olivetti  <programname.bas>
+# where <programname.bas> is a placeholder
+# for the actual program file name, to be
+# substituted
