@@ -86,8 +86,8 @@ can launch it from terminal with the command
 pcbasic -qn  C2F.BAS
 # or
 pcbasic -qn  F2C.BAS
-# more in general
-pcbasic -qn --preset=olivetti  <programname.bas>
+# i.e. more in general
+pcbasic -qn  <programname.bas>
 # where <programname.bas> is a placeholder
 # for the actual program file name, to be
 # substituted
