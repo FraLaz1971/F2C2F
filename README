@@ -47,7 +47,7 @@ F2C2F
 The TCONV program execute a UI infinite loop prompting the user
 for input at terminal command line. The execution schema can be
 described with the following pseudocode lines 
-('\' symbol indicate continuation on newline):
+('\' symbol indicates continuation on newline):
 
 
 input the user for name
