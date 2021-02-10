@@ -4,7 +4,7 @@
 *** BATCH MODE
 ******************************************
 VALUES ARE APROXIMATED TO CLOSEST INTEGER
-NB DATES ARE IN US FORMAT: mm-dd-yyyy
+LOOK! DATES ARE IN US FORMAT: mm-dd-yyyy
 LOG FORMAT: DATE|TIME|PROGRAM|MESSAGE
 ******************************************
 02-09-2021|14:09:54|F2C.BAS|STARTING PROGRAM F2C.BAS
